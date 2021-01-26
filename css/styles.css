@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.top-image{
+overflow: hidden;
+
+}
+
+.bottom-image{
+overflow: hidden;
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.head-text{
+    transform: translate(130px, 200px);
+    margin: 15px;
+
+}
+
+.icon-star1{
+    transform: translate(850px, -20px);
+    background-color: hsl(300, 19%, 93%);
+    width: 25%;
+    height: 5vh;
+    padding-top: 25px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+.icon-star2{
+    transform: translate(900px, 5px);
+    background-color: hsl(300, 19%, 93%);
+    width: 25%;
+    height: 5vh;
+    padding-top: 25px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+.icon-star3{
+    transform: translate(950px, 30px);
+    background-color: hsl(300, 19%, 93%);
+    width: 25%;
+    height: 5vh;
+    padding-top: 25px;
+    border-radius: 15px;
+    padding-left: 20px;
+
+}
+
+.icon-star1:hover{
+    background-color: hsl(303, 10%, 53%);
+}
+.icon-star2:hover{
+    background-color: hsl(303, 10%, 53%);
+}
+.icon-star3:hover{
+    background-color: hsl(303, 10%, 53%);
+}
+
+.rated{
+    padding-left: 20px;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+
+.comment-buyer{
+    display: flex;
+}
+
+.buyer-one{
+    color: white;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 40px;
+    color:hsl(333, 80%, 67%);
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.buyer-one-image{
+    border-radius: 100%;
+    padding: 10px 10px;
+    margin: 20px;
+} 
+.buyer-comment1 p{
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: left;
+  color:white;
+} 
+
+
+
+.container1{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    height: 30vh;
+    border-radius: 15px;
+    text-align: center;
+    transform: translate(130px, -900px);
+}
+
+.container2{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    height: 30vh;
+    border-radius: 15px;
+    text-align: center;
+    transform: translate(650px, -1140px);
+}
+
+.container3{
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    height: 30vh;
+    border-radius: 15px;
+    text-align: center;
+    transform: translate(1170px, -1370px);
+}
+
+.container1:hover{
+    background-color:  hsl(303, 10%, 53%);
+}
+.container2:hover{
+    background-color:  hsl(303, 10%, 53%);
+}
+.container3:hover{
+    background-color:  hsl(303, 10%, 53%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+ 
